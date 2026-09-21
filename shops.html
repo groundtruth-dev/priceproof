@@ -1,0 +1,25 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Priceproof - for shop owners</title><link rel="stylesheet" href="style.css"></head><body><main>
+<nav><a href="index.html">Priceproof</a><a href="deals.html">Today's drops</a><a href="watched/index.html">Shops we watch</a><a href="shops.html">For shop owners</a></nav>
+<h1>For shop owners</h1>
+<p class="lead">If <code>RealPriceBot</code> showed up in your logs: hello. We record public prices so shoppers can see whether a sale is a sale. Shops with honest pricing come out of this looking good - a list price that matches the 30-day low gets a green <strong>REAL</strong> stamp on every check.</p>
+
+<div class="card"><h3>How we read your shop</h3>
+<ul>
+<li>Only the endpoints you publish for machines: the product feed (<code>/products.json</code>, WooCommerce Store API), your product sitemap and the schema.org product data on product pages.</li>
+<li>robots.txt first, always. A 403 or 429 pauses us for 24 hours. No proxies, no disguised client.</li>
+<li>One full read every 30 minutes at most; single pages a few per minute with pauses, usually far less.</li>
+<li>Your shop is read once, no matter how many people track it.</li>
+</ul></div>
+
+<div class="card"><h3>Want to be listed accurately?</h3>
+<p>Tell us about a product feed we should use instead, a launch you would like watched, or a price we got wrong: <strong>priceproof.contact@gmail.com</strong>. We answer within one working day.</p></div>
+
+<div class="card"><h3>Prefer not to be included?</h3>
+<p>Add this to your robots.txt, or write to <strong>priceproof.contact@gmail.com</strong> from an address at your shop's domain:</p>
+<pre><code>User-agent: RealPriceBot
+Disallow: /</code></pre>
+<p>Applied within one working day, permanently. Past observations of your shop are no longer shown.</p></div>
+
+<footer>Priceproof reports observed prices with dates. It is a tool, not a legal opinion. &middot; <a href="index.html">Home</a> &middot; <a href="privacy.html">Privacy</a> &middot; <a href="terms.html">Terms</a></footer>
+</main></body></html>

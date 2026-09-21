@@ -1,2 +1,3 @@
 User-agent: *
 Allow: /
+Sitemap: https://groundtruth-dev.github.io/priceproof/sitemap.xml
