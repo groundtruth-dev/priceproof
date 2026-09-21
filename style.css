@@ -1,0 +1,17 @@
+:root{color-scheme:light dark;--bg:#1e1f22;--panel:#2b2d31;--text:#f2f3f5;--muted:#949ba4;--acc:#57f287}
+@media (prefers-color-scheme:light){:root{--bg:#fafafa;--panel:#fff;--text:#1e1f22;--muted:#5c6470}}
+body{margin:0;background:var(--bg);color:var(--text);font:16px/1.55 system-ui,Segoe UI,Roboto,sans-serif}
+main{max-width:760px;margin:0 auto;padding:40px 20px}
+nav a{color:var(--muted);margin-right:18px;text-decoration:none}nav a:hover{color:var(--text)}
+h1{font-size:2rem;margin:.6em 0 .2em}h2{margin-top:2em}
+.card{background:var(--panel);border-radius:12px;padding:18px 22px;margin:18px 0}
+code{background:var(--panel);padding:2px 6px;border-radius:6px}
+.btn{display:inline-block;background:var(--acc);color:#111;padding:10px 18px;border-radius:8px;text-decoration:none;font-weight:600}
+footer{color:var(--muted);font-size:.9rem;margin-top:3em}
+.lead{font-size:1.15rem}.muted{color:var(--muted);margin-left:12px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:14px}.grid .card{margin:0}
+.card h3{margin:.2em 0 .4em}
+.steps li{margin:.5em 0}.trust li{margin:.45em 0}
+.cta{font-size:1.1rem;margin-top:2.5em}
+
+.deals{width:100%;border-collapse:collapse;font-size:.95rem}.deals td,.deals th{padding:8px 6px;text-align:left;border-bottom:1px solid var(--panel)}.deals a{color:var(--text)}.pct{color:var(--acc);font-weight:700;white-space:nowrap}.muted2{color:var(--muted)}.chips a{display:inline-block;background:var(--panel);padding:4px 10px;border-radius:999px;margin:3px;text-decoration:none;color:var(--text);font-size:.9rem}
